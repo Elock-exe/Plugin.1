@@ -1,0 +1,80 @@
+name: InfectedTag
+version: 1.0
+main: fr.neralix.infectedtag.Main
+api-version: 1.20
+description: Plugin InfectedTag avec effets, zones multiples et commandes
+
+commands:
+  joininfected:
+    description: Rejoindre l'événement InfectedTag
+    usage: /joininfected
+
+  leaveinfected:
+    description: Quitter l'événement InfectedTag
+    usage: /leaveinfected
+
+  infecter:
+    description: Infecter un joueur
+    usage: /infecter <joueur>
+
+  desinfecter:
+    description: Désinfecter un joueur
+    usage: /desinfecter <joueur>
+
+  desinfectall:
+    description: Rendre humains tous les infectés
+    usage: /desinfectall
+
+  infectedlist:
+    description: Afficher la liste des participants et leur statut
+    usage: /infectedlist
+
+  setzone1:
+    description: Définir le point 1 de la zone EVENT 1
+    usage: /setzone1
+  setzone2:
+    description: Définir le point 2 de la zone EVENT 1
+    usage: /setzone2
+
+  setzone3:
+    description: Définir le point 1 de la zone EVENT 2
+    usage: /setzone3
+  setzone4:
+    description: Définir le point 2 de la zone EVENT 2
+    usage: /setzone4
+
+  setzone5:
+    description: Définir le point 1 de la zone EVENT 3
+    usage: /setzone5
+  setzone6:
+    description: Définir le point 2 de la zone EVENT 3
+    usage: /setzone6
+
+  setzone7:
+    description: Définir le point 1 de la zone EVENT 4
+    usage: /setzone7
+  setzone8:
+    description: Définir le point 2 de la zone EVENT 4
+    usage: /setzone8
+
+  setzone9:
+    description: Définir le point 1 de la zone EVENT 5
+    usage: /setzone9
+  setzone10:
+    description: Définir le point 2 de la zone EVENT 5
+    usage: /setzone10
+
+  setzone11:
+    description: Définir le point 1 de la zone EVENT 6
+    usage: /setzone11
+  setzone12:
+    description: Définir le point 2 de la zone EVENT 6
+    usage: /setzone12
+
+  setsafezone1:
+    description: Définir le point 1 de la SafeZone
+    usage: /setsafezone1
+
+  setsafezone2:
+    description: Définir le point 2 de la SafeZone
+    usage: /setsafezone2
