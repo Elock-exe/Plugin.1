@@ -246,7 +246,6 @@ public class Main extends JavaPlugin implements Listener {
         applyConfusion(player);
     }
 
-    /* ================= EFFETS ================= */
 
     private void applyProtection(Player player) {
         player.addPotionEffect(new PotionEffect(
@@ -307,7 +306,6 @@ public class Main extends JavaPlugin implements Listener {
         player.removePotionEffect(PotionEffectType.CONFUSION);
     }
 
-    /* ================= ZONES SET ================= */
 
     private void setEventZone(Player player, int index, boolean isMin) {
         if (isMin) {
